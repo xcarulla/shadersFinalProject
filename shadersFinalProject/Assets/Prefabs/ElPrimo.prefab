@@ -1162,6 +1162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911871148904910758}
   - component: {fileID: 9148000539885985916}
+  - component: {fileID: 7959693689417999176}
   m_Layer: 0
   m_Name: ElPrimo
   m_TagString: Untagged
@@ -1208,6 +1209,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7959693689417999176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698970527254977372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d969de157b3807f4ca92cf07fd2ab11f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5758499134390958540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,7 +1686,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55e0194e9248e81488210e8d3f189be0, type: 2}
+  - {fileID: 2100000, guid: a7ff6726752dcc847868f395eafe5d90, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
