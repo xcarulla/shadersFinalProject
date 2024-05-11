@@ -37,7 +37,7 @@ public class DisolveScript : MonoBehaviour
         {
             if (!potDesapareixer && NoiseStrength < 5f)
             {
-                NoiseStrength += 0.005f;
+                NoiseStrength += (2f * Time.deltaTime);
                 foreach (Material material in materials)
                 {
                     material.SetFloat("_NoiseStrength", NoiseStrength);
@@ -54,7 +54,7 @@ public class DisolveScript : MonoBehaviour
 
                 if (potDesapareixer && NoiseStrength > -23f)
                 {
-                    NoiseStrength -= 0.005f;
+                    NoiseStrength -= (2f * Time.deltaTime);
                     foreach (Material material in materials)
                     {
                         material.SetFloat("_NoiseStrength", NoiseStrength);
